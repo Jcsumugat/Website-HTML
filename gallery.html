@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Your styles for the gallery container and images */
+    .gallery-container {
+      padding: 0px;
+    }
+
+    .category-title {
+      text-align: center;
+      color: black;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin: 30px 20px;
+      padding: 10px;
+    }
+
+    .gallery-image {
+      width: 350px;
+      height: 250px;
+      margin: 0px;
+      object-fit: cover;
+      cursor: pointer;
+      align-content: center;
+      padding: 22px;
+    }
+    body
+    {
+        background-color: dimgrey;
+    }
+
+    /* Your other styles */
+  </style>
+</head>
+<body>
+
+  <div class="gallery-container">
+    <div class="category">
+      <p class="category-title">Camping</p>
+    
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+    </div>
+
+    <div class="category">
+      <p class="category-title">Kawa Hot Bath</p>
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+    </div>
+        <div class="category">
+      <p class="category-title">Pool(2ft)</p>
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060318762.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060354854.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+
+
+
+    </div>
+    <div class="category">
+      <p class="category-title">Camping</p>
+    
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+
+    </div>
+    <div class="category">
+      <p class="category-title">Camping</p>
+     
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+    <img class="gallery-image" src="/storage/emulated/0/DCIM/Facebook/FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
+    </div>
+
+
+    <!-- Add more categories as needed -->
+
+  </div>
+
+  <!-- JavaScript function to display clicked image in a larger view -->
+  <script>
+    function showImage(imageSource) {
+      alert("You clicked on: " + imageSource);
+      // You can customize this function to display images in a modal or lightbox
+    }
+  </script>
+
+</body>
+</html>
