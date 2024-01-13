@@ -10,28 +10,47 @@
     }
 
     .category-title {
-      text-align: center;
-      color: black;
-      font-size: 30px;
-      font-weight: bold;
-      margin-bottom: 10px;
-      margin: 30px 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 0px auto;
+    font-family: ,Sans-Serif;
     }
 
     .gallery-image {
-      width: 350px;
-      height: 250px;
-      margin: 0px;
-      object-fit: cover;
-      cursor: pointer;
-      align-content: center;
-      padding: 22px;
+    width: 350px;
+    height: 250px;
+    margin: 0px;
+    object-fit: cover;
+    cursor: pointer;
+    align-content: center;
+    padding: 22px;
     }
     body
     {
-        background-color: dimgrey;
-        
+    background-color: ghostwhite;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-x: auto;
+    width:100%;
     }
+hr 
+{
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    height: 2px;
+    background-color: #000000;
+}
+.background-section 
+{
+    width: 100%;
+    background-color: #000;
+    padding: 2px;
+    margin: 10px 0;
+}
 
   </style>
 </head>
@@ -39,21 +58,32 @@
 
   <div class="gallery-container">
     <div class="category">
+<hr size="7" color="grey">
+<div class='background-section'>
       <p class="category-title">Camping</p>
-    
+</div>
+<hr size="7" color="gray">     
     <img class="gallery-image" src="FB_IMG_1705123156240.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
     <img class="gallery-image" src="FB_IMG_1704756919280.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
     <img class="gallery-image" src="FB_IMG_1705123149460.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
     </div>
 
     <div class="category">
+        <hr size="7" color="grey"> 
+        <div class='background-section'>
       <p class="category-title">Kawa Hot Bath</p>
+      </div>
+      <hr size="7" color="grey"> 
     <img class="gallery-image" src="FB_IMG_1705124522495.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
     <img class="gallery-image" src="FB_IMG_1705124335371.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
     <img class="gallery-image" src="FB_IMG_1705123215629.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
     </div>
         <div class="category">
+    <hr size="7" color="grey"> 
+    <div class='background-section'>
       <p class="category-title">Pool(3ft)</p>
+      </div>
+      <hr size="7" color="grey"> 
     <img class="gallery-image" src="FB_IMG_1705060287802.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
     <img class="gallery-image" src="FB_IMG_1705060318762.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
     <img class="gallery-image" src="FB_IMG_1705060354854.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
@@ -62,7 +92,11 @@
 
     </div>
         <div class="category">
+    <hr size="7" color="grey"> 
+    <div class='background-section'>
       <p class="category-title">Celebrations/Events</p>
+      </div>
+      <hr size="7" color="grey"> 
     
     <img class="gallery-image" src="FB_IMG_1705123407199.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
     <img class="gallery-image" src="FB_IMG_1705123411135.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
@@ -70,7 +104,11 @@
 
     </div>
     <div class="category">
+        <hr size="7" color="grey"> 
+        <div class='background-section'>
       <p class="category-title">River</p>
+      </div>
+      <hr size="7" color="grey"> 
     
     <img class="gallery-image" src="FB_IMG_1705106844049.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
     <img class="gallery-image" src="FB_IMG_1705123225054.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
@@ -78,7 +116,11 @@
 
     </div>
     <div class="category">
+        <hr size="7" color="grey">
+        <div class='background-section'>
       <p class="category-title">Satisfied Customers</p>
+      </div>
+      <hr size="7" color="grey"> 
      
     <img class="gallery-image" src="FB_IMG_1705123250407.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
     <img class="gallery-image" src="FB_IMG_1705123211166.jpg" alt="Image 1" onclick="showImage('category1_image1.jpg')">
@@ -88,12 +130,5 @@
     </div>
 
   </div>
-
-  <script>
-    function showImage(imageSource) {
-      alert("You clicked on: " + imageSource);
-    }
-  </script>
-
 </body>
 </html>
